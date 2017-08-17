@@ -1,0 +1,28 @@
+{
+  "name": "fetchfav",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "start": "node server.js"
+  },
+  "author": "Elliott Ribner <elliottlribner@gmail.com> (http://elliottribner.com)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "chai": "^4.1.1",
+    "cheerio": "^1.0.0-rc.2",
+    "csv-parser": "^1.11.0",
+    "express": "^4.15.4",
+    "lodash": "^4.17.4",
+    "mocha": "^3.5.0",
+    "mongoose": "^4.11.7",
+    "request": "^2.81.0",
+    "standard": "^10.0.3",
+    "supertest": "^3.0.0"
+  },
+  "engines": {
+    "node": "8.0.0"
+  }
+}
